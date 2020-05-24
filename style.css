@@ -10,10 +10,23 @@
 	height: 20px;
 	border: none;
 	background: red;
-  display: none;
-  text-align: center;
-  color: orange;
+ 	display: none;
+  	text-align: center;
+ 	color: orange;
 	text-decoration: none;
+	position: relative;
+}
+
+.menu__link_mobile:before {
+	content: "-";
+	position: absolute;
+	bottom: 2mm
+}
+.menu__link_mobile:after {
+	content:"-";
+	position: absolute;
+	top: 1mm;
+	left: 2mm;
 }
 .body__wrap .menu__link_mobile {
   display: block;
